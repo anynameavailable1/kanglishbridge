@@ -1,1 +1,3 @@
-{"_comment": "Manual token corrections. Format: {\"word\": \"english\" | \"romanized_kannada\" | \"proper_noun\"}"}
+{
+  "bus": "english"
+}
