@@ -1,0 +1,35 @@
+# Python environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Testing caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# AI model weights
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+checkpoints/
+model_cache/
+
+# Private datasets and feedback
+datasets/uploaded/
+backend/data/feedback.jsonl
+
+# Operating system files
+.DS_Store
+Thumbs.db

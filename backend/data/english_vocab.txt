@@ -1,0 +1,23 @@
+# Editable list of English words that must NOT be transliterated. Whitespace separated, '#' starts a comment.
+# Add any English word that your chats use and that gets wrongly converted to Kannada.
+a an the is are was were be been am i you he she it we they me my your his her our their this that these those
+and or but if so because with without for of in on at to from by about as not no yes ok okay hi hello hey bye
+thanks thank please sorry good bad best nice great fine super cool sure fine
+do does did done go going went come coming came get got give take make made call called say said see saw
+want need have has had will would can could should must may might let know think tell ask wait stop start
+today tomorrow yesterday tonight morning evening night day week month year time now soon late early again
+what when where why how who which all some any more less very much many few little big small new old
+college school class classes lab office work job meeting project assignment report exam test result marks
+submit submitted deadline presentation interview internship placement semester
+phone mobile laptop computer internet wifi network server backend frontend database code coding bug deploy
+python java javascript app application website link file folder email mail message chat group video photo
+online offline login logout password update download upload install setup error fix issue ticket
+bank account money payment cash card otp balance
+bus train flight ticket traffic bike car auto cab road
+lunch dinner breakfast tea coffee juice food hotel restaurant party birthday function movie game match cricket
+free busy ready late sir madam friend friends brother sister
+# common verbs / chat words
+send sent sending reply replied forward read write wrote check open close sleep eat drink play watch meet join leave
+reach pay paid buy sell try use used help feel love like miss share save delete add remove change cancel confirm
+book booked order delivery pickup drop reach reached message messages text hold sit stand run walk
+yeah yep nope hmm wow lol thanks welcome congrats sorry

@@ -1,0 +1,22 @@
+#kb-panel, #kb-fab { all: initial; }
+#kb-panel, #kb-panel * , #kb-fab { box-sizing: border-box; font-family: system-ui, "Segoe UI", "Nirmala UI", Roboto, sans-serif; }
+#kb-panel {
+  position: fixed; z-index: 2147483647; right: 20px; bottom: 20px; width: 340px; max-width: calc(100vw - 24px);
+  background: #fffdf8; color: #1d1b16; border: 1px solid #e4dccb; border-left: 4px solid #e39a0b;
+  border-radius: 14px; box-shadow: 0 10px 30px rgba(0,0,0,.22); padding: 12px 14px; font-size: 14px; line-height: 1.45;
+}
+@media (prefers-color-scheme: dark) { #kb-panel { background: #1f1d19; color: #f1ecdf; border-color: #33302a; border-left-color: #e39a0b; } }
+#kb-panel .kb-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; opacity: .7; }
+#kb-panel .kb-x { background: none; border: 0; color: inherit; font-size: 18px; cursor: pointer; line-height: 1; }
+#kb-panel .kb-out { font: 17px/1.4 "Iowan Old Style", Georgia, serif; margin: 4px 0 8px; white-space: pre-wrap; }
+#kb-panel .kb-note, #kb-panel .kb-warn { font-size: 12px; opacity: .75; margin: 4px 0; }
+#kb-panel .kb-err { color: #b3261e; font-size: 13px; }
+#kb-panel .kb-btns { display: flex; gap: 8px; margin-top: 8px; }
+#kb-panel .kb-btn { border: 1px solid #c9bfa8; background: transparent; color: inherit; border-radius: 8px; padding: 5px 11px; font-size: 12.5px; font-weight: 600; cursor: pointer; }
+#kb-panel .kb-btn.kb-primary { background: #e39a0b; border-color: #e39a0b; color: #1d1b16; }
+#kb-panel .kb-spin { display: inline-block; width: 12px; height: 12px; border: 2px solid currentColor; border-right-color: transparent; border-radius: 50%; animation: kbspin .8s linear infinite; vertical-align: -2px; margin-right: 6px; }
+@keyframes kbspin { to { transform: rotate(360deg); } }
+#kb-fab {
+  position: fixed; z-index: 2147483647; display: none; background: #e39a0b; color: #1d1b16; border-radius: 999px;
+  padding: 5px 12px; font: 600 12.5px system-ui, sans-serif; cursor: pointer; box-shadow: 0 4px 14px rgba(0,0,0,.3);
+}

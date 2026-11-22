@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>KanglishBridge</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="brand"><span class="mark" aria-hidden="true">ಕ</span><div><h1>KanglishBridge</h1><p>Kanglish → English</p></div></div>
+    <div class="top-right">
+      <span id="status" class="status" data-state="checking" title="Backend status"><i></i><span id="status-text">Checking…</span></span>
+      <button id="theme" class="icon-btn" title="Toggle light / dark" aria-label="Toggle theme">◐</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="card input-card">
+      <label for="input">Your message</label>
+      <textarea id="input" rows="4" spellcheck="false" placeholder="Naanu ivattu college ge baralla, swalpa work ide."></textarea>
+      <div class="row">
+        <button id="clear" class="btn ghost">Clear</button>
+        <button id="translate" class="btn primary"><span class="spinner" hidden></span><span id="translate-label">Translate</span></button>
+      </div>
+      <p class="hint">Ctrl + Enter to translate</p>
+    </section>
+
+    <p id="error" class="error" role="alert" hidden></p>
+
+    <section id="result" class="card output-card" hidden>
+      <div class="out-head"><label>English</label><button id="copy" class="btn small">Copy</button></div>
+      <p id="output" class="output"></p>
+      <ul id="warnings" class="warnings" hidden></ul>
+      <details><summary>How it was understood</summary>
+        <p class="meta"><b>Detected:</b> <span id="langs"></span></p>
+        <p class="meta"><b>Kannada script:</b></p><p id="normalized" class="kn"></p>
+      </details>
+      <details id="fb"><summary>Suggest a better translation</summary>
+        <textarea id="fb-text" rows="2" placeholder="Type the correct English…"></textarea>
+        <button id="fb-send" class="btn small">Send correction</button> <span id="fb-msg" class="meta"></span>
+      </details>
+    </section>
+  </main>
+
+  <script src="api.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+# Romanized Kannada words used to resolve English/Kannada collisions and avoid needless warnings.
+# This list is NOT used for translation, only for routing. Extend it freely.
+naanu nanu naan nanage nange nanna nanga ninna nimma neenu neevu nivu nimge ninge nimmage ninage
+avanu avalu avaru avanige avalige avarige idu adu ivaru yaaru yaavaga yaake yelli elli yenu enu hege hegiddira
+illa alla ide ive ittu aagide aaytu aytu aagilla bartini barthini baralla baruttene hogtini hogthiddini
+ge ke ali alli inda annu na ra kke
+ivattu inni naale nale ninne hosa halesu tumba swalpa sakkath beda beku maadi madi maadu
+oota tindi neeru mane oorige hudugi huduga amma appa anna akka tamma tange
+sari houdu haudu ayyo sumne bega bekku bandidane bandide hogidane hogide

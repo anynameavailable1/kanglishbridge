@@ -1,0 +1,8 @@
+# AI models. Install AFTER requirements.txt. Versions below are NOT verified by the author's tooling;
+# see README "Model installation" and each project's own README if pip complains.
+torch>=2.1                       # CPU build: pip install torch --index-url https://download.pytorch.org/whl/cpu
+transformers>=4.40,<4.50         # IndicTrans2 uses trust_remote_code; very new versions may break it - pin if needed
+sentencepiece
+sacremoses
+IndicTransToolkit                # if PyPI install fails: pip install git+https://github.com/VarunGumma/IndicTransToolkit.git
+ai4bharat-transliteration        # IndicXlit; depends on fairseq (hard on native Windows / Python >= 3.11) -> use WSL2 + Python 3.10
